@@ -8,7 +8,7 @@ export async function getUsers() {
 
 
 //done
-export async function addResourcesToUser(
+export async function addResourcesgitToUser(
 	user_name,
 	user_email,
 	user_em_contact_name_1,
