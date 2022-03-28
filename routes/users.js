@@ -11,8 +11,8 @@ import {
 
 //done
 router.get("/", async (req, res) => {
-	const allWeeks = await getUsers();
-	res.json({ success: true, message: `all user`, payload: allWeeks });
+	const allUsers = await getUsers();
+	res.json({ success: true, message: `all user`, payload: allUsers });
 });
 
 //done
